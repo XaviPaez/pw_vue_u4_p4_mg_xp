@@ -5,6 +5,7 @@
     <router-link to="/ingresar">Ingresar</router-link>
     <router-link to="/actualizar">Actualizar</router-link>
     <router-link to="/eliminar">Eliminar</router-link>
+    <router-link to="/bootstrap">Bootstrap</router-link>
   </div>
 </template>
 
@@ -28,10 +29,9 @@ a {
   background: #27dbd5;
   position: fixed;
   padding: 10px;
-  top: 0px;
+  top: 0;
   left: 0;
-  width: 100%;
-  height: 8%;
+  max-width: 100%;
   border-bottom: 2px solid #00afa9;
 }
 </style>

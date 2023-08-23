@@ -22,6 +22,10 @@ const routes = [
         component: () => import('../modules/estudiante/pages/EliminarEstudiante.vue')
     },
     {
+        path: '/bootstrap',
+        component: () => import('../modules/estudiante/pages/Bootstrap.vue')
+    },
+    {
         path: '/:pathMatch(.*)*',
         component: () => import('../modules/estudiante/pages/NotFound.vue')
     }
