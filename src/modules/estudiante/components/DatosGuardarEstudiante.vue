@@ -1,16 +1,26 @@
 <template>
   <div class="container">
-    <label for="">Cedula:</label>
-    <input type="text" v-model="cedula" />
-    <label for="">Nombre:</label>
-    <input type="text" v-model="nombre" />
-    <label for="">Apellido:</label>
-    <input type="text" v-model="apellido" />
-    <label for="">Provincia:</label>
-    <input type="text" v-model="provincia" />
-    <label for="">FechaNacimiento:</label>
-    <input type="date" v-model="fechaNacimiento" />
-    <button @click="guardarEstudiante">Guardar</button>
+    <div class="form-floating">
+      <label for="">Cedula:</label>
+      <input type="text" v-model="cedula" />
+    </div>
+    <div class="form-floating">
+      <label for="">Nombre:</label>
+      <input type="text" v-model="nombre" />
+    </div>
+    <div class="form-floating">
+      <label for="">Apellido:</label>
+      <input type="text" v-model="apellido" />
+    </div>
+    <div class="form-floating">
+      <label for="">Provincia:</label>
+      <input type="text" v-model="provincia" />
+    </div>
+    
+      <label for=""></label>
+      <input type="date" v-model="fechaNacimiento" />
+    
+    <button @click="guardarEstudiante" class="btn btn-dark">Guardar</button>
   </div>
 </template>
 
