@@ -37,12 +37,7 @@ export default {
   },
 
   mounted(){
-     const{cedula}= this.$route.params
-     console.log(cedula)
-     this.consultarEstudiante()
-     console.log(this.$route)
-     const prov=this.$route.query.provincia;
-      const {prov1} = this.$route.query;
+  
       // http://localhost:8080/..../estudiantes/{cedula}
 
     // http://localhost:8080/..../estudiantes/:cedula
